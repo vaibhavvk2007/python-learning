@@ -1,0 +1,7 @@
+print(5)
+print("Hello world!")
+print(7+5)
+print(5*2)
+print(10/2)
+print(10-2)
+print(10%3)
