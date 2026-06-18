@@ -19,5 +19,8 @@
 # for a in range(5):
 #     print(a+1)
 
-for z in range(5):
-    print(z*5)
+# for z in range(5):
+#     print(z*5)
+
+for i in range(0,50,4):
+    print(i)
