@@ -16,5 +16,8 @@
 #     for i in fruit:
 #         print(i)
 
-for a in range(5):
-    print(a+1)
+# for a in range(5):
+#     print(a+1)
+
+for z in range(5):
+    print(z*5)
