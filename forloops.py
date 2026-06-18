@@ -10,8 +10,11 @@
 #     if (i=="b"):
 #         print("this is letter b")
 
-fruits=["apple","banana","mango"]
-for fruit in fruits:
-    print(fruit) 
-    for i in fruit:
-        print(i)
+# fruits=["apple","banana","mango"]
+# for fruit in fruits:
+#     print(fruit) 
+#     for i in fruit:
+#         print(i)
+
+for a in range(5):
+    print(a+1)
