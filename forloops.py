@@ -22,5 +22,14 @@
 # for z in range(5):
 #     print(z*5)
 
-for i in range(0,50,4):
-    print(i)
+# for i in range(0,50,4):
+#     print(i)
+
+# for i in range(10,0,-2):
+#     print(i)
+
+for i in range(5):
+    for j in range(5):
+        print(i,j)
+
+        
