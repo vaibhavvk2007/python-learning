@@ -24,9 +24,15 @@
 #     print(i)
 
 
-i=0
+# i=0
+# while True:
+#     print(i)
+#     i=i+1
+#     if(i%10==0):
+#         break
+
 while True:
-    print(i)
-    i=i+1
-    if(i%10==0):
+    number = int(input("Enter a number: "))
+    print(number)
+    if not number>=0:
         break
