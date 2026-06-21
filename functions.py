@@ -19,6 +19,14 @@ def isgreater(a,b):
     else:
         print("Second number is greater")
 
+def issmaller(a,b):
+    if(a<b):
+        print("first number is smaller")
+    else:
+        print("Second number is smaller")
+
+def anyfunction(a,b):
+    pass
 
 a=8
 b=6
@@ -26,9 +34,12 @@ b=6
 # print(gmean)
 calculategmean(a,b)
 isgreater(a,b)
+issmaller(a,b)
+
 c=8
 d=54
 # gmean1=(c*d)/(c+d)
 # print(gmean1)
 calculategmean(c,d)
 isgreater(c,d)
+issmaller(c,d)
