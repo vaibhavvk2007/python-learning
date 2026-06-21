@@ -4,4 +4,8 @@ b=6
 gmean=(a*b)/(a+b)
 print(gmean)
 
+c=17
+d=54
+gmean1=(c*d)/(c+d)
+print(gmean1)
 
