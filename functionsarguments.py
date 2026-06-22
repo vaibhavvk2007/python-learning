@@ -8,7 +8,15 @@
 # #In python the arguments passed outside the function eventhough the arguments are passed before
 # average(4,6)
 
+
+#Default Arguments
+# def name(fname, mname="Jhon",lname="Whatson"):
+#     print("Hello, ",fname,mname,lname)
+
+# name("peter")
+
+#Keyword Arguments
 def name(fname, mname="Jhon",lname="Whatson"):
     print("Hello, ",fname,mname,lname)
 
-name("peter")
+name(mname="parker",fname="peter")
