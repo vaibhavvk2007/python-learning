@@ -16,7 +16,14 @@
 # name("peter")
 
 #Keyword Arguments
-def name(fname, mname="Jhon",lname="Whatson"):
-    print("Hello, ",fname,mname,lname)
+# def name(fname, mname="Jhon",lname="Whatson"):
+#     print("Hello, ",fname,mname,lname)
 
-name(mname="parker",fname="peter")
+# name(mname="parker",fname="peter")
+
+#Required arguments
+
+def average(a,b=5):
+    print("the average is",(a+b/2))
+
+average(7)
