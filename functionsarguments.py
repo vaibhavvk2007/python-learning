@@ -23,7 +23,16 @@
 
 #Required arguments
 
-def average(a,b=5):
-    print("the average is",(a+b/2))
+# def average(a,b=5):
+#     print("the average is",(a+b/2))
 
-average(7)
+# average(7)
+
+
+def average(*numbers):
+    sum=0
+    for i in numbers:
+        sum=sum+i
+    print("Average is:",sum/len(numbers))
+
+average(5,7,8)
