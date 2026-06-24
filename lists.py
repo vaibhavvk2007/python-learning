@@ -10,8 +10,12 @@ list=[100,99,"vaibhav",True]
 # print(list[len(list)-2])
 # print(type(list[2]))            #to get the type of an single element
 
-if 10 in list:
+if 100 in list:
     print("yes")
 else:
     print("no")
-    
+
+if "vb" in "vaibhav":
+    print("yes")
+else:
+    print("no")
