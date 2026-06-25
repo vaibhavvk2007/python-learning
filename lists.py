@@ -21,6 +21,9 @@ list=[100,99,"vaibhav",True,99.99,9.69]
 #     print("no")
 
 print(list)
+print(list[0:len(list)])
 print(list[1:])
+print(list[1:4])
 print(list[:3])
+print(list[1:5:2])
 print(list[1::2])
