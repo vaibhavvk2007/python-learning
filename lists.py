@@ -31,3 +31,9 @@
 # list=[i for i in range(10)]
 list=[i*i for i in range(10)]
 print(list)
+lst=[i*i for i in range(10) if i%2==0]
+print(lst)
+
+names=["harry","vaibhav","code","with","me"]
+namesWith_A=[item for item in names if(len(item)>4)]
+print(namesWith_A)
