@@ -21,8 +21,14 @@
 l=[45,6,8,6,45,88,99,98,97,99]
 # print(l.count(99))
 # print(l.count(1))
+# m=l.copy()
+# m[0]=0
+# print(l)
+# print(m)
 
-m=l.copy()
-m[0]=0
+l.insert(1,100)
 print(l)
-print(m)
+
+m=[900,1000,1100]
+l.extend(m)
+print(l)
