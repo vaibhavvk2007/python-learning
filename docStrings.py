@@ -8,7 +8,7 @@ print(square.__doc__)
 
 
 def square(n):
-    '''Takes in a number and returns it's square'''
+    '''Takes in a number and returns it's square'''     #This is a DocString
     print(n**2)
 square(5)
 print(square.__doc__)
@@ -18,3 +18,7 @@ print(square.__doc__)
 #     print(a+b)
 
 # add(5,2)
+
+        #PEP(Python Enhancement Program)
+
+    
