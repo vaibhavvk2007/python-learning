@@ -7,6 +7,9 @@
 
 cities={"Tokyo","Madrid","Berlin","Delhi"}
 cities2={"Tokyo","Seoul","Kabul","Madrid"}
+
+cities4={"Tokyo","Madrid"}
+
 #1      cities3=cities.intersection(cities2)        # This returns a new set  
 #       print(cities3)                      
 
@@ -21,3 +24,25 @@ cities2={"Tokyo","Seoul","Kabul","Madrid"}
 
 # cities3=cities.symmetric_difference_update(cities2)        # This updates in the existing sets 
 # print(cities3)
+
+# cities3=cities.difference(cities2)
+# print(cities3)
+
+print(cities.issuperset(cities4))
+print(cities4.issuperset(cities))
+print(cities4.issubset(cities))
+print(cities.issubset(cities4))
+
+cities.add("Newyork")
+print(cities)
+cities.remove("Tokyo")      #remove() or discard()          discard doesn't throws any error
+print(cities)
+
+cities.pop()
+print(cities)
+
+
+
+# del delets the entire set
+#clear() delets only the elements inside the set
+#
